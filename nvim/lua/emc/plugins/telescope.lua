@@ -27,9 +27,9 @@ return {
 
     -- set keymaps
         local builtin = require('telescope.builtin')
-        vim.keymap.set('n', '<leader>pf', builtin.find_files, {desc = " Fuzzy find files in cwd"})
-        vim.keymap.set('n', '<leader>pg', builtin.git_files, {desc = "Fuzzy find git files"})
-        vim.keymap.set('n', '<leader>ps', function()
+        vim.keymap.set('n', '<leader>sf', builtin.find_files, {desc = " Fuzzy find files in cwd"})
+        vim.keymap.set('n', '<leader>sg', builtin.git_files, {desc = "Fuzzy find git files"})
+        vim.keymap.set('n', '<leader>ss', function()
         builtin.grep_string({ search = vim.fn.input("Grep > ") })
         end)
     end
