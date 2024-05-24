@@ -52,6 +52,12 @@ return {
       opts.desc = "Go to next diagnostic"
       keymap.set("n", "]d", vim.diagnostic.goto_next, opts) -- jump to next diagnostic in buffer
 
+      opts.desc = "Show diagnostic [E]rror messages"
+      vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
+
+      opts.desc = 'Open diagnostic [Q]uickfix list'
+      vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
+
       opts.desc = "Show documentation for what is under cursor"
       keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under cursor
 
