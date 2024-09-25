@@ -21,8 +21,6 @@ return {
 
     mason_lspconfig.setup({
       ensure_installed = {
-        "cssls",
-        "tailwindcss",
         "svelte",
         "lua_ls",
         "rust_analyzer",
