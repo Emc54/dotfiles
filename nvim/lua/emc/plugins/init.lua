@@ -1,14 +1,12 @@
-return  {
-    'rebelot/kanagawa.nvim',
-	'tpope/vim-fugitive',
-	'mbbill/undotree',
-    'ThePrimeagen/vim-be-good',
-    {'stevearc/dressing.nvim',
-        event = "VeryLazy",
-    },
-    {'nvim-telescope/telescope-file-browser.nvim',
-    dependencies = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
-    },
-    'xiyaowong/transparent.nvim',
+return {
+	"rebelot/kanagawa.nvim",
+	"tpope/vim-fugitive",
+	"mbbill/undotree",
+	"ThePrimeagen/vim-be-good",
+	{ "stevearc/dressing.nvim", event = "VeryLazy" },
+	{
+		"nvim-telescope/telescope-file-browser.nvim",
+		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+	},
+	"xiyaowong/transparent.nvim",
 }
-

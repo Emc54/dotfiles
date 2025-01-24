@@ -34,6 +34,9 @@ return {
 			vim.g.disable_autoformat = false
 		end, { desc = "Enable autoformat-on-save" })
 
+		vim.keymap.set("n", "<leader>ff", "<cmd>FormatDisable!<CR>", { desc = "Disables formatting for the buffer" })
+		vim.keymap.set("n", "<leader>df", "<cmd>FormatDisable<CR>", { desc = "Disables all formatting" })
+
 		vim.keymap.set({ "n", "v" }, "<leader>af", function()
 			conform.format({
 				lsp_fallback = true,

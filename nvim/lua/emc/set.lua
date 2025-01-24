@@ -3,7 +3,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- persist clipboard between nvim and pc
-vim.opt.clipboard = 'unnamedplus'
+vim.opt.clipboard = "unnamedplus"
 
 -- search functions
 vim.opt.ignorecase = true
@@ -14,7 +14,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 -- Show subtitutions as they happen
-vim.opt.inccommand = 'split'
+vim.opt.inccommand = "split"
 vim.opt.cursorline = true
 
 -- Set tab settings
@@ -30,7 +30,7 @@ vim.opt.wrap = false
 -- Don't keep buffers in swapfile or backups but do create an undofile
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
 vim.opt.undofile = true
 
 -- Don't highlight all matches, only the current one
@@ -39,6 +39,6 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "120"
 vim.opt.scrolloff = 10
 vim.opt.updatetime = 50
