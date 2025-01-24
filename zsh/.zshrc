@@ -116,3 +116,4 @@ export PATH="$HOME/gems/bin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias c="clear" 
