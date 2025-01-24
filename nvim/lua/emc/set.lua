@@ -42,3 +42,7 @@ vim.opt.termguicolors = true
 vim.opt.colorcolumn = "120"
 vim.opt.scrolloff = 10
 vim.opt.updatetime = 50
+
+-- Disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
