@@ -10,6 +10,7 @@ return {
 				html = { "prettier" },
 				lua = { "stylua" },
 				python = { "isort", "black" },
+				{ c = { "clang-format" }, args = { "--style=mozilla", "--fallback-style=mozilla" } },
 			},
 			format_on_save = function(bufnr)
 				-- Disable with a global or buffer-local variable

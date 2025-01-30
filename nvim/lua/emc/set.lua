@@ -25,7 +25,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- Don't keep buffers in swapfile or backups but do create an undofile
 vim.opt.swapfile = false
