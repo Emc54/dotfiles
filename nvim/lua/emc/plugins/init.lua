@@ -1,5 +1,5 @@
 return {
-	"rebelot/kanagawa.nvim",
+	require("emc.plugins.colorscheme"),
 	"tpope/vim-fugitive",
 	"mbbill/undotree",
 	"ThePrimeagen/vim-be-good",
